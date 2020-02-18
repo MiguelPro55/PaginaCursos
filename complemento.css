@@ -1,26 +1,47 @@
+body {
+background-color:sandybrown;
+
+}
+
+.nombresprogramadores{
+    text-align: left;
+    background-color: dodgerblue;
+    color: black;
+    margin: 10px;
+    padding: 0;}
+.nombresprogramadores:hover{
+    text-align: right;
+    background-color: black;
+    color: dodgerblue;
+    margin: 15px;
+    padding: 0;
+
+}
+
 .lineaslargas {
     text-align:center;
     background-color: black;
     color: white;
-    margin-right: 20;
-    padding: 20px;
+    margin-right: 10px;
+    padding: 5px;
     }
 .lineaslargas:hover{
     background-color:white ;
+    font-family:Elephant;
     color:black;
-    margin: 5px;
-    padding: 5;
+    margin: 20px;
+    padding: 20px;
 }
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    margin: 10px;
+    padding: 10px;
+    overflow:hidden;
     background-color: #333;
 }
 
 li {
-    float: left;
+    float:left;
 }
 
 li a {
@@ -35,4 +56,8 @@ li a {
 li a:hover {
     background-color:white;
     color:black;
+}
+footer{
+    background-color: dimgrey;
+
 }
